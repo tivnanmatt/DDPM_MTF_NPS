@@ -1,0 +1,20 @@
+name: null
+
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+
+dependencies:
+  - python
+  - jupyter
+  - pip
+  - numpy
+  - matplotlib
+  - scipy
+  - pytorch
+  - pip:
+    - xraydb
+    - wandb
+    - moviepy
+    - imageio

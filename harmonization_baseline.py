@@ -26,7 +26,7 @@ nBatchesPerEpoch_Validation = 32
 patch_size = 128
 nEpochsPerVideo = 10
 N = 16
-loadModelsFlag = True
+loadModelsFlag = False
 
 enc_chs=(   2,  32, 64, 128, 256)
 dec_chs=( 256, 128, 64,  32,   1)

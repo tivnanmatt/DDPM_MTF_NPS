@@ -126,15 +126,6 @@ def apply_NPS(x, alpha5, alpha6, alpha7, alpha8, zeroMean=False):
     z = torch.fft.irfft2(z_rfft2)
     return x + z
 
-
-
-
-
-
-
-
-
-
 N_batch=16
 
 # make a neural network model with one input and one output
